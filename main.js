@@ -17,7 +17,7 @@ function generateMoney() {
             message.innerHTML = `Success! You've just generated ₱${amount}!`;
             
             // Redirect to Rickroll (YouTube)
-            window.location.href = 'https://youtu.be/xvFZjo5PgG0?si=6RaJ7t3_1wpZZlFp';
+            window.location.href = 'https://youtu.be/xMHJGd3wwZk?si=nHEOx_F-JUZIiJ-i';
             
         }, 2000);
     }, 2000);
