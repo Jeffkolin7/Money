@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-color: black;
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+}
+
+/* Heading Styles */
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+/* Input Styles */
+.container input {
+    padding: 15px;
+    margin: 10px 0;
+    width: calc(100% - 30px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+/* Button Styles */
+.container button {
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+/* Button Hover Effect */
+.container button:hover {
+    background-color: #45a049;
+}
+
+/* Message Styles */
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+#jef {
+  color: black;
+  font-family: serif;
+  
+}
